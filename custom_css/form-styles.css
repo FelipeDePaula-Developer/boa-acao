@@ -1,0 +1,33 @@
+.input-default {
+    border-radius: 0%;
+    border: solid 1px;
+    height: 40px;
+    width: 60vw;
+    color: blue;
+}
+
+.input-default::placeholder {
+    color: blue;
+}
+
+.button-default {
+    border: 0px;
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 60vw;
+    -webkit-box-shadow: 0px 6px 4px -1px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 6px 4px -1px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 6px 4px -1px rgba(0, 0, 0, 0.36);
+}
+
+.button-default:active {
+    border: solid 1px;
+    color: blue;
+    background-color: white;
+    height: 40px;
+    width: 60vw;
+    -webkit-box-shadow: 0px 6px 4px -1px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 6px 4px -1px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 6px 4px -1px rgba(0, 0, 0, 0.36);
+}
