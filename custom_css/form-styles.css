@@ -6,10 +6,24 @@
     color:#08ABDE;
 }
 
+.input-small {
+    border-radius: 0%;
+    border: solid 1px;
+    height: 40px;
+    width: 45vw;
+    color:#08ABDE;
+}
+
 .input-default::placeholder {
     color:#08ABDE;
     font-size: small;
 }
+
+.input-small::placeholder {
+    color:#08ABDE;
+    font-size: small;
+}
+
 
 .button-default {
     border: 0px;
